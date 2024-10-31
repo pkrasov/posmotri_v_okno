@@ -159,7 +159,7 @@ ol {
 }
 
 .preloader {
-  position: absolute;
+  
   max-height: 100%;
   max-width: 100%;
 }
@@ -180,7 +180,7 @@ ol {
 }
 
 .visually-hidden {
-  position: absolute;
+  
   inline-size: 1px;
   block-size: 1px;
   overflow: hidden;

@@ -79,7 +79,6 @@ ol {
   flex-direction: row;
 
   align-items: flex-end;
-  height: 54px;
   gap: 40px;
 }
 
@@ -94,7 +93,8 @@ ol {
   align-items: flex-start;
   position: relative;
   overflow-y: auto;
-  overflow-x: hidden;
+  
+  
 }
 
 .content__list-item:not(:last-child) {
@@ -158,6 +158,10 @@ ol {
 }
 
 .content__card-link_current {
+  background-color: #545050;
+}
+
+.content__card-link:active{
   background-color: #545050;
 }
 
@@ -308,7 +312,9 @@ button {
   width: 194px;
   background-color: transparent;
 }
-
+li:has(button){
+  width: 100%; /* Кнопка занимает всю ширину li */
+}
 .more-button {
-  width: 399px;
+  width: 100%;
 }
